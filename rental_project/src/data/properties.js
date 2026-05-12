@@ -1,0 +1,48 @@
+const properties = [
+  {
+    id: 1,
+    type: "image/h1.jpg",
+    bedrooms: 2,
+    bathrooms: 1,
+    surface: 75,
+    address: "12 Oak Street, Green Valley",
+    rent: 950,
+    date: "Mar 15",
+    available: true,
+  },
+  {
+    id: 2,
+    type: "image/h2.jpg",
+    bedrooms: 3,
+    bathrooms: 2,
+    surface: 110,
+    address: "8 Maple Lane, Riverside",
+    rent: 1200,
+    date: "Apr 1",
+    available: true,
+  },
+  {
+    id: 3,
+    type: "image/f1.jpg",
+    bedrooms: 1,
+    bathrooms: 1,
+    surface: 50,
+    address: "22 Pine Road, Hilltop",
+    rent: 650,
+    date: "Feb 28",
+    available: false,
+  },
+  {
+    id: 4,
+    type: "image/f2.jpg",
+    bedrooms: 2,
+    bathrooms: 1,
+    surface: 65,
+    address: "34 Cedar Court, Downtown",
+    rent: 800,
+    date: "Jan 10",
+    available: true,
+  },
+];
+
+export default properties;
